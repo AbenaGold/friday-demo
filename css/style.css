@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+#headerbg{
+    background-image: url(../img/multiple\ fruits.webp);
+    background-size: cover;
+    background-position: center;  
+    height: 100vh;
+}
+
+#logo{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    font-weight: 800;
+}
+#nav-links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: red;
+    margin-top: 1rem;
+    background-color: rgba(122, 180, 20, 0.747);
+    height: 10vh;
+}
+
+#ullist{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+
+.nav-items{
+    text-decoration: none;
+    display: flex;
+    color: rgb(235, 225, 225);
+    gap: 50px;
+    list-style: none;
+    font-size: 15pt;
+    padding-top: 10px;
+padding-right: 2rem;
+font-weight: 300;
+
+}
+
+#header-text{
+    padding-top: 10rem;
+    padding-left: 10rem;
+    color: aquamarine;
+    font-size: 30px;
+    backgrou
+}
+#btn{
+    background-color: rgb(143, 201, 43);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(12, 53, 4);
+    font-size: 20px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#btn:hover{
+    background-color: yellow;
+}
+
+#section-1{
+    padding-top: 10rem;
+    padding-left:5rem ;
+    padding-right: 5rem;
+}
+
+.grid-container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 6px;
+        grid-row-gap: 0px;
+}
+
+.image-s{
+    width: 200px;
+    height: 100px;
+
+}
